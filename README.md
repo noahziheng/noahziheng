@@ -24,8 +24,11 @@ I'm a web developer from China 🇨🇳.
   <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png">
   <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png">
   <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png">
-  <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png"></code>
+  <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png">
+</code>
 
+<br />
+<br />
 
 | <a href="https://github.com/noahziheng"><img align="center" src="https://github-readme-stats.vercel.app/api?username=noahziheng&show_icons=true&include_all_commits=true&theme=chartreuse-dark&hide_border=true&count_private=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/noahziheng"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=noahziheng&layout=compact&theme=chartreuse-dark&hide_border=true&count_private=true" /></a> |
 | ------------- | ------------- |
