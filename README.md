@@ -4,11 +4,9 @@ I'm a web developer from China 🇨🇳.
 
 **About me**
 
-- 💼 A front-end engineer at [ByteDance](https://www.bytedance.com/).
+- 💼 A AI full-stack engineer at [ByteDance](https://www.bytedance.com/).
 
-- 💻 I usually use TypeScript, JavaScript, C++ with Node.js.
-
-- 📖 I'm learning Rust, Golang, WebAssemebly, Kubernetes, etc.
+- 💻 I usually use Golang, Rust, TypeScript, Kubernetes, C++ with Node.js.
 
 - 👀 More information on [here](https://noahgao.net).
 
