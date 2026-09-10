@@ -10,15 +10,15 @@ I'm a web developer from China 🇨🇳.
 
 - 👀 More information on [here](https://noahgao.net).
 
-| <a href="https://github.com/noahziheng"><img align="center" src="https://github-readme-stats.vercel.app/api?username=noahziheng&show_icons=true&include_all_commits=true&theme=chartreuse-dark&hide_border=true&count_private=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/noahziheng"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=noahziheng&layout=compact&theme=chartreuse-dark&hide_border=true&count_private=true" /></a> |
-| ------------- | ------------- |
+<p align="center">
+  <img src="github-metrics.svg" alt="GitHub stats" />
+</p>
+
+<p align="center">
+  <img src="metrics-repos.svg" alt="Featured repositories" />
+</p>
 
 #### Top Repositories
 
-
-<a href="https://github.com/artusjs/core">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=artusjs&repo=core&theme=chartreuse-dark&line_height=27" />
-</a>
-<a href="https://github.com/noahziheng/ssr-helper">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=noahziheng&repo=ssr-helper&theme=chartreuse-dark&line_height=27" />
-</a>
+- [artusjs/core](https://github.com/artusjs/core)
+- [noahziheng/ssr-helper](https://github.com/noahziheng/ssr-helper)

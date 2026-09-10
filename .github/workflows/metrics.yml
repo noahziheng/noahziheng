@@ -24,8 +24,6 @@ jobs:
           user: noahziheng
           base: header, activity, community, metadata
           config_timezone: Asia/Shanghai
-          plugin_languages: yes
-          plugin_languages_ignored: html, css, scss, less, shell, dockerfile, makefile, cmake, starlark
           extras_css: |
             svg {
               background-color: #0d1117;
