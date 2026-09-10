@@ -29,6 +29,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: percentage, bytes-size
+          commits_authoring: noahziheng, noahgaocn@users.noreply.github.com, Noah Gao, noahgaocn@outlook.com, ziheng.gzh, ziheng.gzh@alibaba-inc.com, Jarvis, jarvis@noahgao.net
           extras_js: |
             // Drop rows showing a 0 value (e.g. "0 Pull requests reviewed")
             document.querySelectorAll("div.field").forEach(el => {
