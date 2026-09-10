@@ -26,6 +26,14 @@ jobs:
           # contribution/PR/issue stats that the sidebar does not show.
           base: activity, metadata
           config_timezone: Asia/Shanghai
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: percentage, bytes-size
+          extras_js: |
+            // Drop rows showing a 0 value (e.g. "0 Pull requests reviewed")
+            document.querySelectorAll("div.field").forEach(el => {
+              if (/^\s*0\b/.test(el.textContent.trim())) el.remove();
+            });
 
       - uses: lowlighter/metrics@v3.34
         with:
