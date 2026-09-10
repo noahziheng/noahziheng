@@ -1,0 +1,66 @@
+name: Metrics
+
+on:
+  schedule:
+    # Daily at 02:17 UTC (10:17 CST)
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/metrics.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: noahziheng
+          base: header, activity, community, metadata
+          config_timezone: Asia/Shanghai
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, scss, less, shell, dockerfile, makefile, cmake, starlark
+          extras_css: |
+            svg {
+              background-color: #0d1117;
+              color: #c9d1d9;
+            }
+            h1, h2, h3 {
+              color: #7fff00 !important;
+            }
+            .field {
+              color: #7fff00;
+            }
+            .field svg {
+              fill: #7fff00;
+            }
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-repos.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: noahziheng
+          base: ""
+          config_timezone: Asia/Shanghai
+          plugin_repositories: yes
+          plugin_repositories_featured: artusjs/core, noahziheng/ssr-helper
+          extras_css: |
+            svg {
+              background-color: #0d1117;
+              color: #c9d1d9;
+            }
+            h1, h2, h3 {
+              color: #7fff00 !important;
+            }
+            .field {
+              color: #7fff00;
+            }
+            .field svg {
+              fill: #7fff00;
+            }
