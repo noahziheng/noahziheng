@@ -17,10 +17,10 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34
         with:
           filename: github-metrics.svg
-          token: ${{ github.token }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: noahziheng
           base: header, activity, community, metadata
           config_timezone: Asia/Shanghai
@@ -41,10 +41,10 @@ jobs:
               fill: #7fff00;
             }
 
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34
         with:
           filename: metrics-repos.svg
-          token: ${{ github.token }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: noahziheng
           base: ""
           config_timezone: Asia/Shanghai
