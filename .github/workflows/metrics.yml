@@ -20,7 +20,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ github.token }}
           user: noahziheng
           base: header, activity, community, metadata
           config_timezone: Asia/Shanghai
@@ -44,7 +44,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics-repos.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ github.token }}
           user: noahziheng
           base: ""
           config_timezone: Asia/Shanghai
