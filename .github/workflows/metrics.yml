@@ -24,6 +24,19 @@ jobs:
           user: noahziheng
           base: header, activity, community, metadata
           config_timezone: Asia/Shanghai
+          extras_css: |
+            svg {
+              background-color: #0d1117;
+            }
+            h1, h2, h3 {
+              color: #58a6ff !important;
+            }
+            .field {
+              color: #c9d1d9;
+            }
+            .field svg {
+              fill: #c9d1d9;
+            }
 
       - uses: lowlighter/metrics@v3.34
         with:
@@ -34,3 +47,16 @@ jobs:
           config_timezone: Asia/Shanghai
           plugin_repositories: yes
           plugin_repositories_featured: artusjs/core, noahziheng/ssr-helper
+          extras_css: |
+            svg {
+              background-color: #0d1117;
+            }
+            h1, h2, h3 {
+              color: #58a6ff !important;
+            }
+            .field {
+              color: #c9d1d9;
+            }
+            .field svg {
+              fill: #c9d1d9;
+            }
