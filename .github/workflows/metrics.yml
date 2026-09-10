@@ -22,21 +22,10 @@ jobs:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: noahziheng
-          base: header, activity, community, metadata
+          # Profile sidebar already shows name/avatar/followers; keep only
+          # contribution/PR/issue stats that the sidebar does not show.
+          base: activity, community, metadata
           config_timezone: Asia/Shanghai
-          extras_css: |
-            svg {
-              background-color: #161b22;
-            }
-            h1, h2, h3 {
-              color: #58a6ff !important;
-            }
-            .field {
-              color: #c9d1d9;
-            }
-            .field svg {
-              fill: #c9d1d9;
-            }
 
       - uses: lowlighter/metrics@v3.34
         with:
@@ -47,16 +36,3 @@ jobs:
           config_timezone: Asia/Shanghai
           plugin_repositories: yes
           plugin_repositories_featured: artusjs/core, noahziheng/ssr-helper
-          extras_css: |
-            svg {
-              background-color: #161b22;
-            }
-            h1, h2, h3 {
-              color: #58a6ff !important;
-            }
-            .field {
-              color: #c9d1d9;
-            }
-            .field svg {
-              fill: #c9d1d9;
-            }
