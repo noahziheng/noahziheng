@@ -11,14 +11,9 @@ I'm a web developer from China 🇨🇳.
 - 👀 More information on [here](https://noahgao.net).
 
 <p align="center">
-  <img src="github-metrics.svg" alt="GitHub stats" />
+  <img src="github-metrics.svg" alt="GitHub stats" width="480" />
 </p>
 
 <p align="center">
-  <img src="metrics-repos.svg" alt="Featured repositories" />
+  <img src="metrics-repos.svg" alt="Featured repositories" width="480" />
 </p>
-
-#### Top Repositories
-
-- [artusjs/core](https://github.com/artusjs/core)
-- [noahziheng/ssr-helper](https://github.com/noahziheng/ssr-helper)
