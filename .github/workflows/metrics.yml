@@ -24,7 +24,7 @@ jobs:
           user: noahziheng
           # Profile sidebar already shows name/avatar/followers; keep only
           # contribution/PR/issue stats that the sidebar does not show.
-          base: activity, community, metadata
+          base: activity, metadata
           config_timezone: Asia/Shanghai
 
       - uses: lowlighter/metrics@v3.34
